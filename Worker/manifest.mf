@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: Andrei Mikhalenia
+Main-Class: myworker.ThreadPool
+Class-Path: classes/mysql-connector-java-5.1.26-bin.jar classes/commons-lang-2.6.jar
