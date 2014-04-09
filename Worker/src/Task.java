@@ -117,7 +117,7 @@ public class Task implements Runnable
 		{
 			Connection dbConnect=getDBConnection();
 			dbConnect.prepareStatement(
-				"INSERT DELAYED INTO makers(id,name,site,picture,categories,status)"+
+				"INSERT INTO makers(id,name,site,picture,categories,status)"+
 				"VALUES "+implodeArray(makerValues,",")+
 				"ON DUPLICATE KEY UPDATE "+
 					"picture=VALUES(picture),"+
