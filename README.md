@@ -1,0 +1,7 @@
+Here you can see some projects which has been written by the Java
+
+1. Worker - this program imports some data from Yandex. For this problem was created a worker which takes the tasks from the queue and executes them in parallel. Here you can see implementation of Rite Limit algorithm on client and working with MySQL and JSON. You can read more information in the russian documentation - Worker/doc.pdf
+2. Zipf - this project demonstrates the implementation of Zipf's algorithm. You can give some text file and the program detects keywords in this file using Zipf's law. You can read more information in the russian documentation - Zipf/doc.pdf
+3. Autorubric - this project demonstrates the implementation of the algorithm autorubrication of some text. When you start the program the program initialize stop words, which takes into account the processing of texts using Zipf's law. In this program also uses an algorithm of neural network training with the teacher. You can read more information in the russian documentation - Autorubric/doc.pdf
+4. Synopsis - this program creates an abstract based on the basic text. You can give some text file and percentage of pomace the program detects the most significant sentences in this file using Zipf's law. You can read more information in the russian documentation - Synopsis/doc.pdf
+5. Btrees - this project demonstrates the implementation of simple B-tree. You can read more information in the russian documentation - Btrees/doc.pdf
