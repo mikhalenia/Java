@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Config
 {
-	private static final String yandexKey="HNl2oHUCJktrvOlKCNcHoPQ1XZ6OGa";
+	private static final String yandexKey="yandex key";
 	private static final String yandexURL="https://api.content.market.yandex.ru";
 	private static final String yandexVersion="v1";
 	private static final String defaultGeoId="157";
