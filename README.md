@@ -1,4 +1,4 @@
-Here you can see some projects which has been written by the Java
+Here you can see some projects which has been written on Java
 
 1. Worker - this program imports some data from Yandex. For this problem was created a worker which takes the tasks from the queue and executes them in parallel. Here you can see implementation of Rite Limit algorithm on client and working with MySQL and JSON. You can read more information in the russian documentation - Worker/doc.pdf
 2. Zipf - this project demonstrates the implementation of Zipf's algorithm. You can give some text file and the program detects keywords in this file using Zipf's law. You can read more information in the russian documentation - Zipf/doc.pdf
