@@ -124,7 +124,7 @@ public class BTree<Key extends Comparable<Key>, Value>
 		{
 			for (int j = 0; j < h.m; j++)
 				s += indent + children[j].key + " " + children[j].value + "\n";
-        }
+        	}
 		else 
 		{
 			for (int j = 0; j < h.m; j++) 
@@ -139,7 +139,7 @@ public class BTree<Key extends Comparable<Key>, Value>
 	private boolean less(Comparable k1, Comparable k2) 
 	{
 		return k1.compareTo(k2) < 0;
-    }
+    	}
 	private boolean eq(Comparable k1, Comparable k2) 
 	{
 		return k1.compareTo(k2) == 0;
