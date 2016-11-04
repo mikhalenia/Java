@@ -135,7 +135,7 @@ public class BTree<Key extends Comparable<Key>, Value>
 		}
 		return s;
 	}
-    // comparison functions - make Comparable instead of Key to avoid casts
+    	// comparison functions - make Comparable instead of Key to avoid casts
 	private boolean less(Comparable k1, Comparable k2) 
 	{
 		return k1.compareTo(k2) < 0;
